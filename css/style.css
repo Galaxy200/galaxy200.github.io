@@ -1,0 +1,81 @@
+body {
+    background-image: url("../img/Backround.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    left: calc(50% - 406px);
+    top: calc(50% - 100px);
+}
+.button {
+	border:0;
+	outline:0;
+	display: block;
+	width: 221px;
+	height: 221px;
+	float: left;
+	margin-right: 50px;
+}
+
+.SButton{
+    background:url(../img/Skype.png) no-repeat;
+}
+
+.SButton:hover
+{   
+    background:url(../img/Skype-Black.png) no-repeat;
+}
+
+.YButton{
+    background:url(../img/YouTube.png) no-repeat;
+}
+
+.YButton:hover
+{   
+    background:url(../img/YouTube-Black.png) no-repeat;
+}
+
+.STButton{
+    background:url(../img/Steam.png) no-repeat;
+}
+
+.STButton:hover
+{   
+    background:url(../img/Steam-Black.png) no-repeat;
+}
+@media (max-width: 830px) {
+	.container {
+		position: relative;
+		left: calc(50% - 110px);
+		top: initial;
+	}
+	.button {
+		float: none;
+	}
+}
+
+.footer-centered{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+
+	padding: 15px;
+	margin-top: 80px;
+}
+
+.footer-centered .footer{
+	position: absolute;
+	bottom: 8;
+	left: 25;
+	color:  #ffffff;
+	font-size: 14px;
+	margin: 0;
+}
