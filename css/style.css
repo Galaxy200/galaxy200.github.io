@@ -22,29 +22,17 @@ body {
 .SButton{
     background:url(../img/Skype.png) no-repeat;
 }
-
-.SButton:hover
-{   
-    background:url(../img/Skype-Black.png) no-repeat;
-}
-
 .YButton{
     background:url(../img/YouTube.png) no-repeat;
 }
-
-.YButton:hover
-{   
-    background:url(../img/YouTube-Black.png) no-repeat;
-}
-
 .STButton{
     background:url(../img/Steam.png) no-repeat;
 }
 
-.STButton:hover
-{   
-    background:url(../img/Steam-Black.png) no-repeat;
+.SButton:hover, .YButton:hover, .STButton:hover {
+	background-position:  0 -221px;
 }
+
 @media (max-width: 830px) {
 	.container {
 		position: relative;
